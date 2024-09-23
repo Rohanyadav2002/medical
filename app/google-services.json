@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276737365463",
+    "project_id": "medical-shop-debca",
+    "storage_bucket": "medical-shop-debca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276737365463:android:9bf3e69b819f50a01fe792",
+        "android_client_info": {
+          "package_name": "com.example.pharmacymedicalshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNsYAOur6pD4BnkhBkiFv3iVElsoEHlhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

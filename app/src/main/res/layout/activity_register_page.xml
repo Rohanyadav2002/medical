@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngtree"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".Register_Page">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="UselessParent">
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_background"
+            android:padding="15dp"
+            android:src="@drawable/add"
+            tools:ignore="ContentDescription" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SIGNUP UP"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+
+                        android:layout_marginTop="20dp"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <EditText
+
+                            android:id="@+id/username"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Name"/>
+                        <EditText
+                            android:id="@+id/usernumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="10-digit mobile number"/>
+                        <EditText
+
+                            android:id="@+id/userpincode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Pincode"/>
+                        <EditText
+
+                            android:id="@+id/userlocality"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Locality"/>
+                        <EditText
+
+                            android:id="@+id/userarea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Address(Area and Street)"/>
+                        <EditText
+
+                            android:id="@+id/userdistric"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="City/District/Town"/>
+                        <EditText
+
+                            android:id="@+id/userstate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter State"/>
+                        <EditText
+
+                            android:id="@+id/userlandmark"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Landmark"/>
+                        <EditText
+
+                            android:id="@+id/useralternatvenumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Alternate Phone"/>
+                        <EditText
+
+                            android:id="@+id/useremail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Email"/>
+                        <EditText
+
+                            android:id="@+id/userpassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Password"/>
+                        <Button
+                            android:id="@+id/userregisterbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Register"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
